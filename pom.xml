@@ -12,7 +12,8 @@
 	<artifactId>MyTicketLucky</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MyTicketLucky</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for MyTicketLucky</description>
+	<packaging>jar</packaging>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -45,7 +46,7 @@
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+				<artifactId>spring-boot-maven-plugin</artifactId> 
 			</plugin>
 		</plugins>
 	</build>

@@ -17,7 +17,7 @@ public class MyTiketLukyLogger {
 	FileWriter fr;
 	
 	MyTiketLukyLogger() throws IOException{
-		file = new File(".//isMyTicketLucky.log");
+		file = new File(".//isMyTicketLucky.csv");
 		fr = new FileWriter(file, true);
 	}
 	
